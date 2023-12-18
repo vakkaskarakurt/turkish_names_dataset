@@ -34,7 +34,7 @@ def calculate_vowel_statistics(file_path):
         return None
 
 def main():
-    file_path = "turkish_male_names.txt"  # Specify the path of the text file
+    file_path = "turkish_unisex_names.txt"  # Specify the path of the text file
     statistics = calculate_vowel_statistics(file_path)
 
     if statistics:
